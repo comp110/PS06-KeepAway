@@ -53,7 +53,7 @@ public class KeepAwayRunner extends Application {
 
   private void newGame() {
     _gameEngine = new GameEngine();
-    _game = new Game(new GameEngine());
+    _game = new Game(_gameEngine);
     _stage.setScene(this.initScene());
     _gameEngine.setOnTick(this::handleTick);
     _gameEngine.play();
