@@ -45,12 +45,12 @@ public class Game {
 
   // TODO: Part 2 - handleKeyPressed, handleKeyReleased
 
-  void handleCollision(CollisionEvent collision) {
+  public void handleCollision(CollisionEvent collision) {
     System.out.println("BOOM!");
     // TODO: Part 3.2
   }
 
-  void handleTick(TickEvent tick) {
+  public void handleTick(TickEvent tick) {
     // TODO: Parts 3.3 and 3.4
   }
 
