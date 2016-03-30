@@ -13,6 +13,7 @@ package comp110;
 
 import comp110.events.CollisionEvent;
 import comp110.events.TickEvent;
+import comp110.pieces.Puck;
 import comp110.pieces.Ship;
 
 /**
@@ -62,6 +63,10 @@ public class Game {
   }
 
   public Ship getAway() {
+    return null;
+  }
+
+  public Puck getPuck() {
     return null;
   }
 
