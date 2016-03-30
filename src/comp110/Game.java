@@ -36,7 +36,7 @@ public class Game {
     _gameEngine.setOnCollision(this::handleCollision);
     _gameEngine.setOnTick(this::handleTick);
 
-    // TODO: Parts 1.2 and 1.3
+    // TODO: Parts 1.2, 1.3, 3.1
 
   }
 
